@@ -1,11 +1,11 @@
 # Author: MOG 9/16/21
 
-freeThrows = 1
-twoPts = 0
-threePts = 0
-totalPts = (freeThrows) + (twoPts * 2) + (threePts * 3)
+free_Throws = 1
+two_Pts = 4
+three_Pts = 7
+total_Pts = (free_Throws) + (two_Pts * 2) + (three_Pts * 3)
 
 s = ""
-if(totalPts != 1): s = "s"
+if(total_Pts != 1): s = "s"
 
-print("The player scored {} point{} in the game.".format(totalPts, s))
+print("The player scored {} point{} in the game.".format(total_Pts, s))
